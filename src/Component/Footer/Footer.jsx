@@ -71,7 +71,7 @@ const Footer = () => {
                     </nav>
                     </div>
                 </footer>
-                <footer className="footer flex justify-between text-white border-base-300 border-t px-10 py-10">
+                <footer className="footer flex-1 md:flex  justify-between text-white border-base-300 border-t px-10 py-10">
                     <div>
                         <p class="text-center text-gray-400 text-sm">© 2026 DigiTools. All rights reserved.</p>
                     </div>
