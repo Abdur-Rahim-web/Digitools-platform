@@ -5,6 +5,7 @@ import Stats from './Component/Stats/Stats';
 import { Suspense } from 'react';
 import AllCard from './Component/AllCards/AllCard';
 import Steps from './Component/Steps/Steps';
+import Pricing from './Component/Pricing/Pricing';
 import Workflow from './Component/Workflow/Workflow';
 import Footer from './Component/Footer/Footer';
 
@@ -27,6 +28,7 @@ function App() {
       <AllCard toolsPromise={toolsPromise}/>
       </Suspense>
       <Steps/>
+      <Pricing/>
       <Workflow/>
       <Footer/>
       

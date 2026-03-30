@@ -86,5 +86,16 @@
     "tagType": "best-seller",
     "features": ["Skill tests", "Certificates", "Performance reports"],
     "icon": "FiBarChart2"
+  },
+  {
+    "id": 9,
+    "name": "AI Resume Analyzer",
+    "description": "Analyze your resume and get instant feedback to improve it.",
+    "price": 8,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Resume scoring", "Keyword suggestions", "Improvement tips"],
+    "icon": "FiSearch"
   }
 ]
