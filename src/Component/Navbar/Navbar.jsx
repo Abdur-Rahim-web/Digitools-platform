@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className='navbar flex justify-between items-center shadow-2xl mx-auto lg:px-40'>
             <h2 className='font-bold text-2xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>DigiTools</h2>
 
-            <div className='space-x-6 hidden'>
+            <div className='space-x-6 hidden md:flex lg:flex'>
                 <a href="">Products</a>
                 <a href="">Features</a>
                 <a href="">Pricing</a>

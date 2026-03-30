@@ -1,10 +1,11 @@
 import './App.css'
 import Navbar from './Component/Navbar/Navbar'
 import Banner from './Component/Banner/Banner'
+import Stats from './Component/Stats/Stats';
+import { Suspense } from 'react';
 import AllCard from './Component/AllCards/AllCard';
 import Steps from './Component/Steps/Steps';
 import Footer from './Component/Footer/Footer';
-import { Suspense } from 'react';
 
 
 const fetchTools = async() => {
@@ -20,6 +21,7 @@ function App() {
     <>
       <Navbar/>
       <Banner/>
+      <Stats/>
       <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
       <AllCard toolsPromise={toolsPromise}/>
       </Suspense>
