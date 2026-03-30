@@ -7,7 +7,7 @@ const ProductsCard = ({allCards}) => {
 
             {
                 allCards.map((cards) => {
-                    // console.log(card)
+                    // console.log(cards)
                     return <div className="card bg-base-100 shadow-sm">
                                 <div className="card-body relative">
                                     <span className="badge badge-xs badge-warning absolute top-2 right-2">{cards.tagType}</span>
