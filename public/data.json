@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with modern templates and ATS optimization.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "FiFileText"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Maker",
+    "description": "Build a stunning personal portfolio website in minutes.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Custom domains", "Drag & drop builder", "Responsive design"],
+    "icon": "FiLayout"
+  },
+  {
+    "id": 3,
+    "name": "AI Cover Letter Generator",
+    "description": "Generate personalized cover letters using AI.",
+    "price": 5,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["AI writing", "Multiple formats", "Instant download"],
+    "icon": "FiEdit"
+  },
+  {
+    "id": 4,
+    "name": "Job Tracker",
+    "description": "Track your job applications and manage your progress.",
+    "price": 7,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Application tracking", "Status updates", "Email reminders"],
+    "icon": "FiCheckCircle"
+  },
+  {
+    "id": 5,
+    "name": "LinkedIn Optimizer",
+    "description": "Improve your LinkedIn profile visibility and engagement.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Profile analysis", "Keyword optimization", "Growth tips"],
+    "icon": "FiLinkedin"
+  },
+  {
+    "id": 6,
+    "name": "Interview Prep Kit",
+    "description": "Practice interviews with real-world questions and answers.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Mock interviews", "Q&A library", "Expert tips"],
+    "icon": "FiMic"
+  },
+  {
+    "id": 7,
+    "name": "Freelance Proposal Generator",
+    "description": "Create winning proposals for freelance jobs instantly.",
+    "price": 6,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Proposal templates", "Client targeting", "Export options"],
+    "icon": "FiSend"
+  },
+  {
+    "id": 8,
+    "name": "Skill Assessment Tool",
+    "description": "Test and showcase your professional skills.",
+    "price": 10,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Skill tests", "Certificates", "Performance reports"],
+    "icon": "FiBarChart2"
+  }
+]
