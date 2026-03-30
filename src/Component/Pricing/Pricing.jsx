@@ -40,7 +40,7 @@ const Pricing = () => {
 
                         </ul>
                         <div className="mt-6">
-                        <button className='btn rounded-full px-28 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white p-5'>Get Started Free</button>
+                        <button className='btn rounded-full px-20 md:px-28 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white p-5'>Get Started Free</button>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@ const Pricing = () => {
 
                         </ul>
                         <div className="mt-6">
-                        <button className="btn rounded-full px-30"><span className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>Start Pro Trial</span></button>
+                        <button className="btn rounded-full px-20 md:px-30"><span className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>Start Pro Trial</span></button>
                         </div>
                     </div>
                 </div>
@@ -120,7 +120,7 @@ const Pricing = () => {
                         </ul>
                         
                         <div className="mt-6">
-                        <button className='btn rounded-full px-30 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white p-5'>Contact Sales</button>
+                        <button className='btn rounded-full px-20 md:px-30 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white p-5'>Contact Sales</button>
                         </div>
                     </div>
                 </div>

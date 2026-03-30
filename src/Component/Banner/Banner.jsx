@@ -1,5 +1,7 @@
 import React from 'react';
 import { CiPlay1 } from "react-icons/ci";
+import banner from "../../assets/banner.png";
+
 
 const Banner = () => {
     return (
@@ -16,13 +18,13 @@ const Banner = () => {
                 <p className='text-gray-500'>Access premium AI tools, design assets, templates, and productivity <br />
                    software—all in one place. Start creating faster today. <br />Explore Products</p>
                 
-                <div className='text-center md:text-left '>
-                    <button className='btn btn-primary mr-3 mb-3 md:mb-0 rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white p-5 ms:flex gap-3 items-center'>Explore Products</button>
+                <div className='flex md:flex-row items-center'>
+                    <button className='btn mr-3 mb-3 md:mb-0 rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white p-5'>Explore Products</button>
                     <button className='btn rounded-full border-[#9514FA] bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'><CiPlay1 className='text-[#4b087e]' />Watch Demo</button>
                 </div>
             </div>
 
-            <img className='md:w-90 lg:w-full order-1 md:order-2' src="/src/assets/banner.png" alt="Tools image" />
+            <img className='md:w-1/2 lg:w-full order-1 md:order-2' src={banner} alt="Tools image" />
         </div>
     );
 };

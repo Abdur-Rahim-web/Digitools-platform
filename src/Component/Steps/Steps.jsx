@@ -1,4 +1,7 @@
 import React from 'react';
+import user from '../../assets/user.png';
+import pack from '../../assets/package.png';
+import rocket from '../../assets/rocket.png';
 
 
 const Steps = () => {
@@ -13,7 +16,7 @@ const Steps = () => {
                 <div className="card bg-base-100 card-xl shadow-2xl relative">
                     <div className="badge badge-primary rounded-full font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white p-4 absolute top-5 right-5">01</div>
                     <div className="card-body text-center flex flex-1 items-center">
-                        <img className='w-1/3 border-2 border-[#4F39F6] bg-[#655e9d2f] rounded-full p-4 ' src="/src/assets/user.png" alt="user image" />
+                        <img className='w-1/3 border-2 border-[#4F39F6] bg-[#655e9d2f] rounded-full p-4 ' src={user} alt="user image" />
                         <h2 className="card-title font-bold text-3xl">Create Account</h2>
                         <p className='text-gray-500 '>Sign up for free in seconds. No credit card required to get started.</p>
                     </div>
@@ -22,7 +25,7 @@ const Steps = () => {
                 <div className="card bg-base-100 card-xl shadow-2xl relative">
                     <div className="badge badge-primary rounded-full font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white p-4 absolute top-5 right-5">02</div>
                     <div className="card-body text-center flex flex-1 items-center">
-                        <img className='w-1/3 border-2 border-[#4F39F6] bg-[#655e9d2f] rounded-full p-4 ' src="/src/assets/package.png" alt="user image" />
+                        <img className='w-1/3 border-2 border-[#4F39F6] bg-[#655e9d2f] rounded-full p-4 ' src={pack} alt="user image" />
                         <h2 className="card-title font-bold text-3xl">Choose Products</h2>
                         <p className='text-gray-500 '>Browse our catalog and select the tools that fit your needs.</p>
                     </div>
@@ -31,7 +34,7 @@ const Steps = () => {
                 <div className="card bg-base-100 card-xl shadow-2xl relative">
                     <div className="badge badge-primary rounded-full font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white p-4 absolute top-5 right-5">03</div>
                     <div className="card-body text-center flex flex-1 items-center">
-                        <img className='w-1/3 border-2 border-[#4F39F6] bg-[#655e9d2f] rounded-full p-4 ' src="/src/assets/rocket.png" alt="user image" />
+                        <img className='w-1/3 border-2 border-[#4F39F6] bg-[#655e9d2f] rounded-full p-4 ' src={rocket} alt="user image" />
                         <h2 className="card-title font-bold text-3xl">Start Creating</h2>
                         <p className='text-gray-500 '>Download and start using your premium tools immediately.</p>
                     </div>
