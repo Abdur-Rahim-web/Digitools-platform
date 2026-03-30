@@ -9,6 +9,7 @@ const ProductsCard = ({allCards}) => {
                 allCards.map((cards) => {
                     // console.log(cards)
                     return <div className="card bg-base-100 shadow-sm">
+                        {/* card form daisy ui */}
                                 <div className="card-body relative">
                                     <span className="badge badge-xs badge-warning absolute top-2 right-2">{cards.tagType}</span>
                                     <div className="space-y-3">

@@ -2,8 +2,9 @@ import './App.css'
 import Navbar from './Component/Navbar/Navbar'
 import Banner from './Component/Banner/Banner'
 import AllCard from './Component/AllCards/AllCard';
-import { Suspense } from 'react';
 import Steps from './Component/Steps/Steps';
+import Footer from './Component/Footer/Footer';
+import { Suspense } from 'react';
 
 
 const fetchTools = async() => {
@@ -23,6 +24,7 @@ function App() {
       <AllCard toolsPromise={toolsPromise}/>
       </Suspense>
       <Steps/>
+      <Footer/>
       
     </>
   )

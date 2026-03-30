@@ -6,7 +6,7 @@ const AllCard = ({toolsPromise}) => {
     const allCards = use(toolsPromise)
     // console.log(allCard)
     return (
-        <div className='px-5 md:px-20 lg:px-40'>
+        <div className='px-5 md:px-20 lg:px-40 py-20'>
             gjklkfjk{allCards.length}
 
             
