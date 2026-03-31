@@ -1,10 +1,22 @@
 import React, { useState } from 'react';
+import { TbFilterEdit } from 'react-icons/tb';
+import { toast } from 'react-toastify';
 
-const Card = ({cards}) => {
+const Card = ({cards, setCart, cart, setCartCard, cartCard}) => {
     // console.log(cards)
 
     // for added to cart//
     const [isCart, setIsCart] = useState(false);
+
+    // function for added to cart button//
+    const handelBuyNowBtn = () => {
+        toast(`${cards.name} is selected.`);
+        setIsCart(true);
+        setCart(cart + setCartCard.length);
+
+        setCartCard([...cartCard, cards])
+    };
+
     return (
         <div>
             <div className="card bg-base-100 shadow-sm">
@@ -32,7 +44,7 @@ const Card = ({cards}) => {
                     
                                     </ul>
                                     <div className="mt-6">
-                                    <button onClick={() => setIsCart(true)} disabled={isCart ? true :false} className="btn btn-primary btn-block">{isCart === true ? "Added to Cart" : "Buy Now"}</button>
+                                    <button onClick={handelBuyNowBtn} disabled={isCart ? true :false} className="btn btn-primary btn-block">{isCart === true ? "Added to Cart" : "Buy Now"}</button>
                                     </div>
                                 </div>
                            </div>
