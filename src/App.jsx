@@ -24,7 +24,7 @@ function App() {
       <Navbar/>
       <Banner/>
       <Stats/>
-      <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
+      <Suspense fallback={<span className="loading loading-spinner loading-xl ml-170 w-1/16"></span>}>
       <AllCard toolsPromise={toolsPromise}/>
       </Suspense>
       <Steps/>

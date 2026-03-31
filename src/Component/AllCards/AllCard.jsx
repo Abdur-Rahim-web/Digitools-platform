@@ -1,10 +1,15 @@
-import React, { use } from 'react';
+import React, { use, useState } from 'react';
 import ProductsCard from './ProductsCard';
+import CartCard from './CartCard';
 
 const AllCard = ({toolsPromise}) => {
     // console.log(toolsPromise)
     const allCards = use(toolsPromise)
     // console.log(allCard)
+    
+    //btn toggling//
+    const [productsBtn, setProductsBtn] = useState("Products");
+    // console.log(productsBtn,"productsBtn")
     return (
         <div className='px-5 md:px-20 lg:px-40 py-20'>
             <div className='text-center space-y-5'>
@@ -12,14 +17,14 @@ const AllCard = ({toolsPromise}) => {
                 <p className='text-gray-500'>Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
             </div>
 
-            <div className='text-center mt-5'>
-                <button className='btn rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white p-5'>Products</button>
-                <button className='btn rounded-full'>Cart (2)</button>
+            <div className='text-center my-8'>
+                <button onClick={() => setProductsBtn("Products")} className={`btn rounded-full rounded-r-none ${productsBtn === "Products" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white p-5" : ""}`}>Products</button>
+                <button onClick={() => setProductsBtn("Cart")} className={`btn rounded-full rounded-l-none ${productsBtn === "Cart" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white p-5" : ""}`}>Cart (2)</button>
             </div>
-            gjklkfjk{allCards.length}
+            
 
             
-            <ProductsCard allCards={allCards}/>
+            {productsBtn === "Products" ? <ProductsCard allCards={allCards} /> : <CartCard/>}
         </div>
     );
 };
