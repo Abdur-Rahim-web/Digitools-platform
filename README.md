@@ -1,16 +1,64 @@
-# React + Vite
+# 🚀 DigiTools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌐 Live Website
 
-Currently, two official plugins are available:
+👉 https://fantastic-puffpuff-5877a8.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📌 Project Description
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**DigiTools Platform** is a modern web application designed to help users access powerful digital tools in one place. It provides a clean UI, responsive design, and a smooth user experience for exploring tools, features, and pricing.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+* ⚛️ React.js
+* 🎨 Tailwind CSS
+* 🌼 DaisyUI
+* ⚡ Vite
+* 🎯 React Icons
+- JavaScript (ES6+)  
+- React-Toastify (NPM Package)  
+- JSON (for product data)  
+
+---
+
+## ✨ Key Features
+
+### 🔹 1. Responsive Design
+
+Fully responsive layout that works perfectly on mobile, tablet, and desktop devices.
+
+### 🔹 2. Modern UI with Gradient Styling
+
+Attractive gradient-based UI with clean typography and professional design.
+
+### 🔹 3. Dynamic Cart System
+
+Interactive cart system with real-time item count and user-friendly interface.
+
+
+## 🚀 Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## 💡 Future Improvements
+
+* 🔐 Authentication system
+* 🛒 Full e-commerce functionality
+* 📊 Dashboard & analytics
+
+---
+
+## 👨‍💻 Author
+
+Developed with ❤️ by [Abdur Rahim](https://github.com/Abdur-Rahim-web/Digitools-platform)
+
+---

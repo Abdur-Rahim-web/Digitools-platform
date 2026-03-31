@@ -11,7 +11,7 @@ const Pricing = () => {
 
             <div className=' grid md:grid-cols-3 lg:grid-cols-3 gap-6 mx-auto px-5 lg:px-40 py-20'>
                 {/* card form daisy ui */}
-                <div className="card bg-base-200 shadow-sm">
+                <div className="card bg-base-200 shadow-2xl">
                     <div className="card-body relative">
                         
                         <div className="space-y-3">
@@ -44,7 +44,7 @@ const Pricing = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card bg-base-100 shadow-sm bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">
+                <div className="card bg-base-100 shadow-2xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">
                     <div className="card-body relative">
                         <span className="badge badge-xs badge-warning rounded-full p-3 absolute -top-3 left-38">Most Popular</span>
                         <div className="space-y-3">
@@ -84,7 +84,7 @@ const Pricing = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card bg-base-200 shadow-sm">
+                <div className="card bg-base-200 shadow-2xl">
                     <div className="card-body relative">
                         <div className="space-y-3">
                         <h2 className="text-3xl font-bold">Enterprise</h2>

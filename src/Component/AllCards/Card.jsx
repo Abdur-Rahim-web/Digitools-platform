@@ -19,11 +19,12 @@ const Card = ({cards, setCart, cart, setCartCard, cartCard}) => {
 
     return (
         <div>
-            <div className="card bg-base-100 shadow-sm">
+            <div className="card bg-base-200 shadow-2xl">
                                 {/* card form daisy ui */}
                                 <div className="card-body relative">
                                     <span className="badge badge-xs badge-warning absolute top-2 right-2">{cards.tagType}</span>
                                     <div className="space-y-3">
+                                    <img className='border rounded-full p-2 w-15 bg-gray-100' src={cards.icon} alt="Tools image" />
                                     <h2 className="text-3xl font-bold">{cards.name}</h2>
                                     <p>{cards.description}</p>
                                     <span className="text-xl">${cards.price}/{cards.period}</span>

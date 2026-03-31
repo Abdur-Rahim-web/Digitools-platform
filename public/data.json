@@ -8,7 +8,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["100+ templates", "ATS optimization", "Export to PDF"],
-    "icon": "FiFileText"
+    "icon": "https://i.ibb.co.com/PvNzTRW1/portfolio.png"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "tag": "Best Seller",
     "tagType": "best-seller",
     "features": ["Custom domains", "Drag & drop builder", "Responsive design"],
-    "icon": "FiLayout"
+    "icon": "https://i.ibb.co.com/PvNzTRW1/portfolio.png"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "tag": "New",
     "tagType": "new",
     "features": ["AI writing", "Multiple formats", "Instant download"],
-    "icon": "FiEdit"
+    "icon": "https://i.ibb.co.com/twR53nX2/writing-2327400-1.png"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["Application tracking", "Status updates", "Email reminders"],
-    "icon": "FiCheckCircle"
+    "icon": "https://i.ibb.co.com/ksS8FsNg/operation.png"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "tag": "Best Seller",
     "tagType": "best-seller",
     "features": ["Profile analysis", "Keyword optimization", "Growth tips"],
-    "icon": "FiLinkedin"
+    "icon": "https://i.ibb.co.com/fdVcBZQJ/social-media.png"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["Mock interviews", "Q&A library", "Expert tips"],
-    "icon": "FiMic"
+    "icon": "https://i.ibb.co.com/84sZDFVr/shopping-cart.png"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "tag": "New",
     "tagType": "new",
     "features": ["Proposal templates", "Client targeting", "Export options"],
-    "icon": "FiSend"
+    "icon": "https://i.ibb.co.com/ksS8FsNg/operation.png"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "tag": "Best Seller",
     "tagType": "best-seller",
     "features": ["Skill tests", "Certificates", "Performance reports"],
-    "icon": "FiBarChart2"
+    "icon": "https://i.ibb.co.com/ksS8FsNg/operation.png"
   },
   {
     "id": 9,
@@ -96,6 +96,6 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["Resume scoring", "Keyword suggestions", "Improvement tips"],
-    "icon": "FiSearch"
+    "icon": "https://i.ibb.co.com/PvNzTRW1/portfolio.png"
   }
 ]
