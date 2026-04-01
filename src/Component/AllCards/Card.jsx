@@ -10,7 +10,7 @@ const Card = ({cards, setCart, cart, setCartCard, cartCard}) => {
 
     // function for added to cart button//
     const handelBuyNowBtn = () => {
-        toast(`${cards.name} is selected.`);
+        toast(`${cards.name} is added to cart.`);
         setIsCart(true);
         setCart(cart + setCartCard.length);
 

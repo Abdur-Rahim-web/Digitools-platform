@@ -33,16 +33,16 @@ const CartCard = ({cartCard, setCartCard, setCart, cart}) => {
                             {
                               cartCard.map((card,index) =>{
                                 return (
-                                        <div key={index} className='flex justify-between items-center rounded-md p-4 m-3 bg-base-300 '>
+                                        <div key={index} className='md:flex justify-between items-center rounded-md p-4 m-3 bg-base-300 '>
                                             <div className='flex justify-between items-center gap-4'>
-                                                <img className='border rounded-full p-2 w-12 bg-white' src={card.icon} alt="Tools image" />
+                                                <img className='border rounded-full p-2 w-12 bg-white mb-8' src={card.icon} alt="Tools image" />
                                                 <div>
                                                     <h2 className='font-bold text-2xl'>{card.name}</h2>
                                                     <p className='font-bold text-gray-500'>$ {card.price}</p>
                                                 </div>
                                             </div>
     
-                                            <button onClick={() => handleCartRemovedBtn(card)} className='btn text-red-500'>Remove</button>
+                                            <button onClick={() => handleCartRemovedBtn(card)} className='btn mt-5 text-red-500'>Remove</button>
                                         </div>
                                 )
                               })

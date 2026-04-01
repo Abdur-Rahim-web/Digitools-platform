@@ -17,7 +17,7 @@ const Navbar = ({cart}) => {
 
             <div className='flex justify-between items-center gap-4'>
                 <div className='relative'>
-                <a href=""><span className='absolute -top-4 -right-1 text-red-500'>{cart}</span><FiShoppingCart /></a>
+                <a href=""><span className='absolute -top-4 -right-1 text-red-500 font-bold'>{cart}</span><FiShoppingCart /></a>
                 </div>
                 <a href="">Login</a>
                 <button className='btn rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white p-5'>Get Started</button>
