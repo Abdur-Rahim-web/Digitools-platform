@@ -1,64 +1,47 @@
 # 🚀 DigiTools Platform
 
 ## 🌐 Live Website
-
 👉 https://fantastic-puffpuff-5877a8.netlify.app/
 
 ---
 
-## 📌 Project Description
-
-**DigiTools Platform** is a modern web application designed to help users access powerful digital tools in one place. It provides a clean UI, responsive design, and a smooth user experience for exploring tools, features, and pricing.
-
----
-
-## 🛠️ Technologies Used
-
-* ⚛️ React.js
-* 🎨 Tailwind CSS
-* 🌼 DaisyUI
-* ⚡ Vite
-* 🎯 React Icons
-- JavaScript (ES6+)  
-- React-Toastify (NPM Package)  
-- JSON (for product data)  
+## 📌 Overview
+DigiTools Platform is a modern web application that provides users with a collection of useful digital tools in one place. It is built with a focus on clean UI, performance, and responsive design.
 
 ---
 
-## ✨ Key Features
+## 🖼️ Screenshot
+![DigiTools Screenshot](./screenshot.png)
 
-### 🔹 1. Responsive Design
+---
 
-Fully responsive layout that works perfectly on mobile, tablet, and desktop devices.
+## 🛠️ Tech Stack
+- ⚛️ React.js  
+- ⚡ Vite  
+- 🎨 Tailwind CSS  
+- 🌼 DaisyUI  
+- 🎯 React Icons  
+- 🔔 React-Toastify  
+- 📦 JSON (mock data)  
 
-### 🔹 2. Modern UI with Gradient Styling
+---
 
-Attractive gradient-based UI with clean typography and professional design.
+## ✨ Features
 
-### 🔹 3. Dynamic Cart System
+- 📱 Fully responsive design (mobile, tablet, desktop)
+- 🎨 Modern gradient-based UI
+- 🛒 Dynamic cart system with live updates
+- ⚡ Fast and optimized performance (Vite)
+- 🔔 Toast notifications for better UX
+- 🧩 Modular and reusable components
 
-Interactive cart system with real-time item count and user-friendly interface.
-
+---
 
 ## 🚀 Getting Started
 
 ```bash
+# Install dependencies
 npm install
+
+# Run development server
 npm run dev
-```
-
----
-
-## 💡 Future Improvements
-
-* 🔐 Authentication system
-* 🛒 Full e-commerce functionality
-* 📊 Dashboard & analytics
-
----
-
-## 👨‍💻 Author
-
-Developed with ❤️ by [Abdur Rahim](https://github.com/Abdur-Rahim-web/Digitools-platform)
-
----
